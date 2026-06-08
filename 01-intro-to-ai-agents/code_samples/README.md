@@ -2,7 +2,7 @@
 
 ## 目录说明
 
-本目录包含 Lesson 01（AI 代理介绍）的所有代码文件。课程以"旅行代理"为场景，演示如何构建一个能够调用工具、查询目的地信息的 AI Agent。
+本目录包含 Lesson 01（AI Agents介绍）的所有代码文件。课程以"旅行Agents"为场景，演示如何构建一个能够调用工具、查询目的地信息的 AI Agent。
 
 ## 学习方法
 
@@ -20,18 +20,10 @@
 
 | 文件 | 类型 | 框架 | 模型提供商 | 可运行 |
 |------|------|------|-----------|--------|
-| `01-dotnet-agent-framework.md` | 参考代码 | MAF (.NET) | Azure AI Foundry | 否 |
-| `01-python-agent-framework.ipynb` | 参考代码 | MAF (Python) | Azure AI Foundry | 否（需 Azure） |
 | `01-python-agent-framework.py` | 学习代码 | 无框架，`openai` SDK | 通义千问 (DashScope) | **是** |
 | `01-qwen-agent-framework.py` | 学习代码 | qwen-agent | 通义千问 (DashScope) | **是** |
 
 ### 文件详情
-
-#### 01-dotnet-agent-framework.md / 01-python-agent-framework.ipynb
-
-微软原版代码。使用 Microsoft Agent Framework + Azure AI Foundry Agent Service。需要 Azure 账号和已部署的模型，不可直接运行。仅作概念参考和接口对比。
-
-核心接口：`AzureAIProjectAgentProvider` → `@tool` 装饰器 → `provider.create_agent()` → `agent.run()`
 
 #### 01-python-agent-framework.py
 

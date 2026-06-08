@@ -27,7 +27,7 @@ llm_cfg = {
 }
 
 # ── 工具定义 ────────────────────────────────────────────
-# qwen-agent 提供两种定义工具的方式：
+# qwen-agent 提供定义工具的方式：
 #   A：@register_tool 装饰普通函数
 #   B：继承 BaseTool 类（需要复杂参数校验时用）
 
@@ -74,7 +74,9 @@ def run_once(user_query: str):
     messages = [{"role": "user", "content": user_query}]
     response_text = ""
     for responses in agent.run(messages=messages):
-        # responses 是这一轮的完整消息列表，取最后一条 assistant 回复
+        # responses 是这一轮的完整消息列表，只需要取最后一条 assistant 回复
+        # 底层 agent 内部已经全自动处理完所有工具调用循环；
+        # 外层 run_once 只负责从迭代快照里捞出最后一段助手文字答案，因此完全不需要写任何 tool_calls 判断逻辑。
         if responses:
             last = responses[-1]
             if last.get("role") == "assistant" and last.get("content"):

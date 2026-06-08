@@ -57,6 +57,7 @@ TOOLS_SCHEMA = [
     },
 ]
 
+# 用字符串名字映射到可运行的函数
 TOOL_MAP = {
     "get_destinations": get_destinations,
 }
@@ -89,6 +90,8 @@ def run_agent(system_prompt: str, user_message: str) -> str:
             return msg.content
 
         # 有 tool_calls → 执行工具，结果追加到对话，继续循环
+        if msg.tool_calls:
+            print(f"收到 tool_calls 命令：{msg.tool_calls}，准备调用工具再次向LLM提问。\n")
         messages.append(_assistant_message(msg))
 
         for tc in msg.tool_calls:
