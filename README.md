@@ -220,16 +220,19 @@ Building_Agent_from_scratch/
 │       └── 01-qwen-agent-framework.py          ✅ 框架版
 │
 ├── 📗 02-explore-agentic-frameworks/         ← 探索 Agent 框架
+│   ├── README.md
 │   └── code_samples/
 │       ├── 02-python-agent-framework.py        ✅
 │       └── 02-qwen-agent-framework.py          ✅
 │
 ├── 📗 03-agentic-design-patterns/            ← Agentic 设计模式
+│   ├── README.md
 │   └── code_samples/
 │       ├── 03-python-agent-framework.py        ✅
 │       └── 03-qwen-agent-framework.py          ✅
 │
 ├── 📗 04-tool-use/                           ← 工具使用
+│   ├── README.md
 │   └── code_samples/
 │       ├── 04-python-agent-framework.py        ✅
 │       └── 04-qwen-agent-framework.py          ✅
