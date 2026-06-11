@@ -172,7 +172,7 @@ python 01-qwen-agent-framework.py     # 再看框架，体会封装
 | 03 | [Agentic 设计模式](./03-agentic-design-patterns/code_samples/README.md) | 清晰指令、结构化输出(Pydantic)、单一职责 |
 | 04 | [工具使用](./04-tool-use/code_samples/README.md) | 多工具组合、工具审批模式 |
 
-### ⚪ 第二阶段：进阶模式
+### 🟢 第二阶段：进阶模式
 
 | # | 课程 | 你会学到 |
 |:---:|------|------|
@@ -237,7 +237,11 @@ Building_Agent_from_scratch/
 │       ├── 04-python-agent-framework.py        ✅
 │       └── 04-qwen-agent-framework.py          ✅
 │
-├── 📘 05-agentic-rag/                        ← [待完成]
+├── 📘 05-agentic-rag/                        ← agentic rag使用
+│   ├── README.md
+│   └── code_samples/
+│       ├── 04-python-agent-framework.py        ✅
+│       └── 04-qwen-agent-framework.py          ✅
 ├── 📘 06-building-trustworthy-agents/        ← [待完成]
 ├── 📘 07-planning-design/                    ← [待完成]
 ├── 📘 08-multi-agent/                        ← [待完成]
