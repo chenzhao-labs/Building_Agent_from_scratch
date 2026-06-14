@@ -240,9 +240,13 @@ Building_Agent_from_scratch/
 ├── 📘 05-agentic-rag/                        ← agentic rag使用
 │   ├── README.md
 │   └── code_samples/
-│       ├── 04-python-agent-framework.py        ✅
-│       └── 04-qwen-agent-framework.py          ✅
-├── 📘 06-building-trustworthy-agents/        ← [待完成]
+│       ├── 05-python-agent-framework.py        ✅
+│       └── 05-qwen-agent-framework.py          ✅
+├── 📘 06-building-trustworthy-agents/        ← Prompt 设计
+│   ├── README.md
+│   └── code_samples/
+│       ├── 06-python-agent-framework.py        ✅
+│       └── 06-qwen-agent-framework.py          ✅
 ├── 📘 07-planning-design/                    ← [待完成]
 ├── 📘 08-multi-agent/                        ← [待完成]
 ├── 📘 09-metacognition/                      ← [待完成]
