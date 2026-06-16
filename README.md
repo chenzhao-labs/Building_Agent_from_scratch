@@ -247,7 +247,11 @@ Building_Agent_from_scratch/
 │   └── code_samples/
 │       ├── 06-python-agent-framework.py        ✅
 │       └── 06-qwen-agent-framework.py          ✅
-├── 📘 07-planning-design/                    ← [待完成]
+├── 📘 07-planning-design/                    ← 任务规划
+│   ├── README.md
+│   └── code_samples/
+│       ├── 07-python-agent-framework.py        ✅
+│       └── 07-qwen-agent-framework.py          ✅
 ├── 📘 08-multi-agent/                        ← [待完成]
 ├── 📘 09-metacognition/                      ← [待完成]
 ├── 📘 10-ai-agents-production/               ← [待完成]
