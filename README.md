@@ -180,7 +180,7 @@ python 01-qwen-agent-framework.py     # 再看框架，体会封装
 | 06 | 构建可信赖 Agent | 系统提示设计、安全约束 |
 | 07 | 规划设计 | 任务分解、子任务编排 |
 
-### ⚪ 第三阶段：多 Agent 系统
+### 🟢 第三阶段：多 Agent 系统
 
 | # | 课程 | 你会学到 |
 |:---:|------|------|
@@ -252,7 +252,13 @@ Building_Agent_from_scratch/
 │   └── code_samples/
 │       ├── 07-python-agent-framework.py        ✅
 │       └── 07-qwen-agent-framework.py          ✅
-├── 📘 08-multi-agent/                        ← [待完成]
+├── 📘 08-multi-agent/                        ← 多agent编排
+│   ├── README.md
+│   ├── solution
+│   └── code_samples/
+│       ├── 07-python-agent-framework.py        ✅
+│       ├── 07-qwen-agent-framework.py          ✅
+│       └── workflows-agent-framework          
 ├── 📘 09-metacognition/                      ← [待完成]
 ├── 📘 10-ai-agents-production/               ← [待完成]
 ├── 📘 11-agentic-protocols/                  ← [待完成]
